@@ -1,4 +1,8 @@
 /*
+ * Basic responsive mashup template
+ * @owner Enter you name here (xxx)
+ */
+/*
  *    Fill in host and port for Qlik engine
  */
 var prefix = window.location.pathname.substr( 0, window.location.pathname.toLowerCase().lastIndexOf( "/extensions" ) + 1 );
@@ -23,15 +27,13 @@ require( ["js/qlik"], function ( qlik ) {
 
 	//callbacks -- inserted here --
 	//open apps -- inserted here --
-	var app = qlik.openApp( 'Helpdesk Management.qvf', config );
+	var app = qlik.openApp('ea25d0dc-2d8a-424b-9b11-98079eb947d5', config);
 
 	//get objects -- inserted here --
-	app.getObject( 'QV06', 'uETyGUP' );
-	app.getObject( 'QV04', 'xfvKMP' );
-	app.getObject( 'QV05', 'rJFbvG' );
-	app.getObject( 'QV03', 'PAppmU' );
-	app.getObject( 'QV02', '298bbd6d-f23d-4469-94a2-df243d680e0c' );
-	app.getObject( 'QV01', 'hRZaKk' );
+	app.getObject('QV04','hRZaKk');
+	app.getObject('QV03','uETyGUP');
+	app.getObject('QV02','PAppmU');
+	app.getObject('QV01','a5e0f12c-38f5-4da9-8f3f-0e4566b28398');
 	//create cubes and lists -- inserted here --
 
 } );
