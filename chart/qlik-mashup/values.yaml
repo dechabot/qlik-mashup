@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: jimareed/qlik-mashup
+  repository: dechabot/qlik-mashup
   tag: latest
   pullPolicy: IfNotPresent
 
