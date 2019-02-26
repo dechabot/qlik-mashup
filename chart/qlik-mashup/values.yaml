@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   repository: dechabot/qlik-mashup
   tag: latest
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
 
 service:
   type: ClusterIP
