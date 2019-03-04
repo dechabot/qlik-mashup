@@ -27,13 +27,14 @@ require( ["js/qlik"], function ( qlik ) {
 
 	//callbacks -- inserted here --
 	//open apps -- inserted here --
-	var app = qlik.openApp('ea25d0dc-2d8a-424b-9b11-98079eb947d5', config);
+	var app = qlik.openApp('98f7144f-8924-4cdb-8d25-f15b8a1f521f', config);
 
 	//get objects -- inserted here --
-	app.getObject('QV04','hRZaKk');
-	app.getObject('QV03','uETyGUP');
-	app.getObject('QV02','PAppmU');
-	app.getObject('QV01','a5e0f12c-38f5-4da9-8f3f-0e4566b28398');
+	app.getObject('QV04','JEBdZz');
+	
+	app.getObject('QV03','NaKQwM');
+	app.getObject('QV02','pDKRhr');
+	app.getObject('QV01','KxdNL');
 	//create cubes and lists -- inserted here --
 
 } );
